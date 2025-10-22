@@ -18,7 +18,7 @@ def echo(text: str = Field(description="The text to echo")) -> str:
     return text
 
 @mcp.tool(title="Magic Matrix", description="Calculate Magic Matrix")
-def calculate_magic_matrix(in_param)
+def calculate_magic_matrix(in_param):
     import http.client
     import json
 

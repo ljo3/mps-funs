@@ -8,5 +8,10 @@ authors = [{ name = "Alpic" }]
 keywords = ["mcp", "llm", "alpic", "python"]
 dependencies = [
     "black>=25.1.0",
-    "mcp",
+    "mcp[cli]",
+]
+
+[tool.uv.workspace]
+members = [
+    "mcp-server-demo",
 ]
